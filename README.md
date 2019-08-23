@@ -2,7 +2,9 @@
 
 Sample project to demonstrate how to render different components with same routing path:
 
-**Desktop View**
+## Routing Overview
+
+**Desktop View** (> 992px)
 
 - /profile
   -- redirect to first child route
@@ -11,7 +13,7 @@ Sample project to demonstrate how to render different components with same routi
   /profile/password
   -- show menu on the left (password link active), password form on the right
 
-**Mobile View**
+**Mobile View** (< 992px)
 
 - /profile
   -- show menu, no childroute active
